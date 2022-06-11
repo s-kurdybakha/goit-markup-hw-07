@@ -26,11 +26,10 @@
         background-color: var(--accent-bg-color);
     }
     
-    &:hover .socials-icon,
-    &:focus .socials-icon {
-        fill: var(--white-text-color);
+    &:hover .team__socials-icon,
+    &:focus .team__socials-icon {
+        fill: var(--second-icon-color);
     }
-    
 }
 
 .team__socials-icon {
@@ -39,6 +38,7 @@
     transition-duration: 250ms;
     transition-timing-function: var(--timing-function);
 }
+
 
 .footer__socials-title {
     font-weight: 700;

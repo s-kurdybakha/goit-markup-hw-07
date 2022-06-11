@@ -381,9 +381,9 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: var(--accent-bg-color);
 }
 
-.team__socials-link:hover .socials-icon,
-.team__socials-link:focus .socials-icon {
-  fill: var(--white-text-color);
+.team__socials-link:hover .team__socials-icon,
+.team__socials-link:focus .team__socials-icon {
+  fill: var(--second-icon-color);
 }
 
 .team__socials-icon {
